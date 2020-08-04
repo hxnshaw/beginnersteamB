@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.bg-gray {
+  background-color: rgb(231, 229, 229);
+}
+.purple-top {
+  border-top: 8px solid #673ab7;
+}
+
+input[type="text"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="text"]:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 1px solid #673ab7;
+}
+
+input[placeholder] {
+  font-size: 14px;
+}
